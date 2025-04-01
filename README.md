@@ -21,33 +21,27 @@ To run this analysis, you need the following:
 
 ## Running the Tests
 ### Breakdown of Tests
+
 The tests and analysis conducted include:
-Sales Growth Analysis: 
+#### Sales Growth Analysis: 
 - A time series analysis of Walmart’s sales growth from 2001 to 2015 across Georgia, Virginia, and Washington.
 - SQL queries are used to fetch the data for each state.
 - A graph is plotted to visualize the sales growth over the years.
-Product Profitability Analysis:
+#### Product Profitability Analysis:
 -   Identification of high-performing products in different regions.
 -   Products with the highest profit in the East, South, West, and Central regions are analyzed and highlighted.
-Operational Challenges:
+#### Operational Challenges:
 - Tests around data conversion (from Excel to CSV) and the handling of column names with spaces and special characters.
 
-Deployment
+## Deployment
 This project is designed to run locally or on any server with MySQL and Python setup. To deploy:
+1. Set up a MySQL server or use a cloud database (e.g., AWS RDS, Google Cloud SQL).
+2. Upload the sales data to the database.
+3. Set up Python environment on your deployment server.
+4. Run the Python script to perform data extraction, analysis, and generate reports.
 
-Set up a MySQL server or use a cloud database (e.g., AWS RDS, Google Cloud SQL).
+## Author
+This report and analysis was created by Vincent Gordon and group members from college. The project was initiated to assist Walmart in improving their strategic decisions regarding sales growth and product profitability.
 
-Upload the sales data to the database.
-
-Set up Python environment on your deployment server.
-
-Run the Python script to perform data extraction, analysis, and generate reports.
-
-Author
-This report and analysis were created by [Author Name]. The project was initiated to assist Walmart in improving their strategic decisions regarding sales growth and product profitability.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgement
-Thanks to the contributors who made the dataset and insights available for analysis. Special thanks to the developers and data analysts who worked on the creation of the MySQL database and helped resolve the operational challenges during the project setup.
+## Acknowledgement
+Thanks to Professor Omar Al-Trad who provided the dataset, the knowledge towards the analysis and the necessary techniques used for this project. 
