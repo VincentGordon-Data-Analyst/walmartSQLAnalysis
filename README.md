@@ -32,6 +32,7 @@ The tests and analysis conducted include:
 -   Products with the highest profit in the East, South, West, and Central regions are analyzed and highlighted.
 #### Operational Challenges:
 - Tests around data conversion (from Excel to CSV) and the handling of column names with spaces and special characters.
+- Finding an online source to convert Excel/CSV files to SQL statements.
 
 ## Deployment
 This project is designed to run locally or on any server with MySQL and Python setup. To deploy:
